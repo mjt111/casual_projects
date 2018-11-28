@@ -1,0 +1,15 @@
+loses_to={'rock':'paper','paper':'scissors','scissors':'rock'}
+
+p1_choice=input('rock, paper or scissors')
+p2_choice=input('rock, paper or scissors')
+if loses_to[p1_choice]==p2_choice:
+  print('p2 wins')
+  print('DEBUG:'+ p1_choice+'  '+p2_choice)
+elif loses_to[p2_choice]==p1_choice:
+  print('p1 wins')
+  ('DEBUG:'+ p1_choice+'  '+p2_choice)
+else:
+  print('draw')
+  print('DEBUG:'+ p1_choice+'  '+p2_choice)
+  
+  
